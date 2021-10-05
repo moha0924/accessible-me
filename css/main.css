@@ -83,7 +83,7 @@ form button {
   position: absolute;
   top: -3rem;
   background-color: black;
-  color: white;
+  color: rgb(255, 247, 226);
   padding-inline-end: -5em 1em;
 }
 
