@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: white;
+  background-color: rgb(255, 240, 221);
   margin: 0;
   padding: 0;
 }
@@ -29,10 +29,10 @@ img {
 
 .main-nav ul {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-nav ul li {
@@ -42,8 +42,8 @@ img {
 
 .main-nav ul li a {
   display: block;
-  color: inherit;
   text-decoration: none;
+  color: inherit;
   font-size: 1.25rem;
 }
 
@@ -51,8 +51,8 @@ form input,
 form textarea {
   display: block;
   width: 100%;
-  margin-bottom: 1rem;
   padding: .5rem 1rem;
+  margin-bottom: 1rem;
 }
 
 form textarea {
@@ -75,8 +75,8 @@ form button {
 
 .skip-links{
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .skip-links a{
@@ -87,11 +87,12 @@ form button {
   padding-inline-end: -5em 1em;
 }
 
-.skip-links a:focus{
-  top: 0;
-}
-
 .main-nav ul li a:hover{
   text-decoration: underline;
   color: rgb(89, 0, 255);
 }
+
+.skip-links a:focus{
+  top: 0;
+}
+
